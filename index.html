@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Code</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-lg font-bold text-blue-500">Freelance Code</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#services" class="hover:text-blue-500">Serviços</a></li>
+                    <li><a href="#portfolio" class="hover:text-blue-500">Portfólio</a></li>
+                    <li><a href="#about" class="hover:text-blue-500">Sobre Nós</a></li>
+                    <li><a href="#blog" class="hover:text-blue-500">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-blue-500">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Solicite um Orçamento</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen" style="background-image: url('https://images.unsplash.com/photo-1523475496153-3b1f9c82ed27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGRldmVsb3BlcnxlbnwwfHx8fDE2NzAyNTg3MjI&ixlib=rb-4.0.3&q=80&w=400');">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+            <div class="text-center text-white">
+                <h1 class="text-5xl font-bold animate__animated animate__fadeInDown">Transforme Suas Ideias em Soluções Digitais</h1>
+                <p class="mt-4 text-xl animate__animated animate__fadeInUp">Desenvolvemos software de alta qualidade, focado em suas necessidades específicas.</p>
+                <a href="#contact" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600">Entre em Contato Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-blue-500">O que Fazemos</h2>
+            <p class="mt-4 text-gray-700">Nossos serviços são projetados para atender às necessidades de empresas, startups e empreendedores.</p>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white rounded shadow-md animate__animated animate__fadeInUp">
+                    <h3 class="text-2xl font-semibold">Desenvolvimento Personalizado</h3>
+                    <p class="mt-2 text-gray-600">Software sob medida, feito para você.</p>
+                </div>
+                <div class="p-6 bg-white rounded shadow-md animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <h3 class="text-2xl font-semibold">Desenvolvimento Web e Mobile</h3>
+                    <p class="mt-2 text-gray-600">Sites e aplicativos que encantam e convertem.</p>
+                </div>
+                <div class="p-6 bg-white rounded shadow-md animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <h3 class="text-2xl font-semibold">Consultoria de TI</h3>
+                    <p class="mt-2 text-gray-600">Estratégias e soluções para seu negócio crescer.</p>
+                </div>
+                <div class="p-6 bg-white rounded shadow-md animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+                    <h3 class="text-2xl font-semibold">Manutenção e Suporte</h3>
+                    <p class="mt-2 text-gray-600">Cuidados contínuos para garantir o sucesso.</p>
+                </div>
+                <div class="p-6 bg-white rounded shadow-md animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">
+                    <h3 class="text-2xl font-semibold">Automação e Integração</h3>
+                    <p class="mt-2 text-gray-600">Eficiência e integração para sua empresa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-blue-500">Nosso Trabalho</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded shadow-md animate__animated animate__fadeInUp">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 1" class="w-full rounded mb-4">
+                    <h3 class="text-2xl font-semibold">Projeto 1</h3>
+                    <p class="mt-2 text-gray-600">Descrição curta do projeto.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 2" class="w-full rounded mb-4">
+                    <h3 class="text-2xl font-semibold">Projeto 2</h3>
+                    <p class="mt-2 text-gray-600">Descrição curta do projeto.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 3" class="w-full rounded mb-4">
+                    <h3 class="text-2xl font-semibold">Projeto 3</h3>
+                    <p class="mt-2 text-gray-600">Descrição curta do projeto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-blue-500 animate__animated animate__fadeIn">Quem Somos</h2>
+            <p class="mt-4 text-gray-700 animate__animated animate__fadeIn" style="animation-delay: 0.2s;">Freelance Code é uma equipe apaixonada por transformar ideias em soluções digitais. Nosso compromisso é com a qualidade e a inovação, entregando resultados que fazem a diferença.</p>
+            <img src="https://via.placeholder.com/600x400" alt="Equipe Freelance Code" class="mx-auto mt-8 rounded shadow-md animate__animated animate__fadeIn" style="animation-delay: 0.4s;">
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-blue-500 animate__animated animate__fadeIn">Dicas e Insights</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded shadow-md animate__animated animate__fadeInUp">
+                    <h3 class="text-2xl font-semibold">Postagem 1</h3>
+                    <p class="mt-2 text-gray-600">Resumo da postagem...</p>
+                    <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Leia mais</a>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <h3 class="text-2xl font-semibold">Postagem 2</h3>
+                    <p class="mt-2 text-gray-600">Resumo da postagem...</p>
+                    <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Leia mais</a>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <h3 class="text-2xl font-semibold">Postagem 3</h3>
+                    <p class="mt-2 text-gray-600">Resumo da postagem...</p>
+                    <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Leia mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-blue-500 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold animate__animated animate__fadeIn">Entre em Contato</h2>
+            <p class="mt-4 animate__animated animate__fadeIn" style="animation-delay: 0.2s;">Estamos prontos para ajudar você a transformar sua ideia em realidade.</p>
+            <form id="contactForm" class="mt-8 max-w-lg mx-auto animate__animated animate__fadeIn" style="animation-delay: 0.4s;">
+                <div class="mb-4">
+                    <input type="text" name="name" placeholder="Seu Nome" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+                    <span id="nameError" class="text-red-500 text-sm hidden">Por favor, insira seu nome.</span>
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="email" placeholder="Seu Email" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+                    <span id="emailError" class="text-red-500 text-sm hidden">Por favor, insira um email válido.</span>
+                </div>
+                <div class="mb-4">
+                    <textarea name="message" rows="4" placeholder="Sua Mensagem" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"></textarea>
+                    <span id="messageError" class="text-red-500 text-sm hidden">Por favor, insira uma mensagem.</span>
+                </div>
+                <button type="submit" class="bg-white text-blue-500 px-6 py-3 rounded hover:bg-gray-200">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6 mt-16">
+        <div class="container mx-auto text-center text-white">
+            <div class="mb-4">
+                <a href="#" class="hover:text-blue-400">Serviços</a> | 
+                <a href="#" class="hover:text-blue-400">Portfólio</a> | 
+                <a href="#" class="hover:text-blue-400">Blog</a> | 
+                <a href="#" class="hover:text-blue-400">Contato</a>
+            </div>
+            <p>© 2024 Freelance Code. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll Animation
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll("section");
+            sections.forEach((section) => {
+                section.classList.add("opacity-0");
+            });
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.remove("opacity-0");
+                        entry.target.classList.add("animate__animated", "animate__fadeIn");
+                    }
+                });
+            });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+
+        // Form Validation
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            let isValid = true;
+
+            const name = document.getElementsByName("name")[0];
+            const email = document.getElementsByName("email")[0];
+            const message = document.getElementsByName("message")[0];
+
+            const nameError = document.getElementById("nameError");
+            const emailError = document.getElementById("emailError");
+            const messageError = document.getElementById("messageError");
+
+            if (name.value.trim() === "") {
+                nameError.classList.remove("hidden");
+                isValid = false;
+            } else {
+                nameError.classList.add("hidden");
+            }
+
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email.value.trim())) {
+                emailError.classList.remove("hidden");
+                isValid = false;
+            } else {
+                emailError.classList.add("hidden");
+            }
+
+            if (message.value.trim() === "") {
+                messageError.classList.remove("hidden");
+                isValid = false;
+            } else {
+                messageError.classList.add("hidden");
+            }
+
+            if (isValid) {
+                alert("Formulário enviado com sucesso!");
+                // Aqui você pode adicionar o código para enviar o formulário.
+            }
+        });
+    </script>
+
+</body>
+
+</html>
